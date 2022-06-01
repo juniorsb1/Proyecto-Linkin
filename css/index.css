@@ -1,0 +1,170 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+        /*HEDER Y PAGINA DE INICIO*/
+
+header {
+    height: 80px ;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    }   
+
+.listas1{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 20px;
+    color: white;
+    
+}
+
+li{
+    list-style: none;
+}
+
+nav{
+        width: 50%;
+}
+
+h1{
+    font-size: 50px;
+    margin: 30px;
+}
+
+.img1{
+    width: 100%
+    ;
+}
+a {
+    text-decoration: none;
+    font-family:'Raleway';
+    color: white;
+}
+
+
+
+                /*CONTACTOS*/
+
+
+
+.cuerpo1{
+    background-color: gray;
+}
+
+.form-register{
+    width: 500px;
+    background-color: rgb(53, 53, 54);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+
+}
+
+.controls{
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 3px;
+    border-color: black;
+
+}
+
+.titulo-form{
+    font-size: 20px;
+    font-style: italic;
+    color: aqua;
+}
+
+.area-form{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    
+}
+
+.botones{
+    text-align: center;
+    width: 100%;
+
+}
+.cuerpo1 h2{
+    font-size: 50px ;
+    width: 100%;
+    text-align: center;
+}
+
+
+/*DISCOGRAFIA*/
+
+.tabla-discografia{
+    border: solid 5px red;
+    padding: 10px;
+    font-size: 30px;
+    margin-left: 550px;
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.fondo-disco{
+    background-color: blanchedalmond;
+}
+
+.discografia-imagenes img{
+    width: 400px;
+    margin: 10px;
+}
+
+.discografia-titulo{
+    font-size: 50px;
+}
+
+
+
+/* INTEGRANTES*/
+.fotos-1{
+    width: 500px;
+
+}
+
+.integ-2{
+    background-color: violet;
+}
+
+.titulo-int{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*HISTORIA*/
+.titulo-his p{
+    font-size: 50px;
+    color: white;
+}
+
+.cuerpo-his{
+
+    background-color: #ce0606;
+}
+
+.text1{
+    color: white;
+    font-size: 20px;
+}
+
