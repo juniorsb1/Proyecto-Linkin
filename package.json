@@ -4,17 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1" ,
+    "test": "echo \"Error: no test specified\" && exit 1",
     "build-sass": "node-sass --include-path scss sass/index.scss css/translated.css",
     "watch-sass": "nodemon -e scss -x \"npm run build-sass\""
-
-
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "D": "^1.0.0",
-    "node-sass": "^7.0.1"
+    "D": "^1.0.0"
+  },
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
   }
 }
