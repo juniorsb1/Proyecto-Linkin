@@ -27,11 +27,7 @@ header {
     color: white;
     
 }
-@media screen and (max-width: 768px) {
-    .listas1{
-        flex-direction: column;
-    }
-    }
+
  
 
 li{
@@ -115,20 +111,27 @@ a {
 .tabla-discografia{
     border: solid 5px red;
     padding: 10px;
-    font-size: 30px;
-    margin-left: 550px;
+    /*font-size: 30px;*/
+    
     background-color: orange;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     
 }
+
+.practicando {
+    display: flex;
+    justify-content: center;
+}
+
 .fondo-disco{
     background-color: blanchedalmond;
 }
 
 .discografia-imagenes img{
-    width: 400px;
+    max-width: 400px;
+    width: 100% ;
     margin: 10px;
 }
 
@@ -147,9 +150,7 @@ a {
 .integ-2{
     background-color: #291E46;
 }
-.integ-2 section{
 
-}
 
 .titulo-int{
 
@@ -182,3 +183,21 @@ a {
     font-size: 20px;
 }
 
+/* footer*/
+
+.foter {
+    background-color: #291E46;
+    color: white;
+
+}
+
+@media screen and (max-width: 768px) {
+    .listas1{
+        flex-direction: column;
+    }
+    .practicando {
+        justify-content: flex-end;
+    }
+    }
+
+    
