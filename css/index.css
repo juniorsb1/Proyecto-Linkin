@@ -111,7 +111,7 @@ a {
 .tabla-discografia{
     border: solid 5px red;
     padding: 10px;
-    /*font-size: 30px;*/
+    font-size: 30px;
     
     background-color: orange;
     display: flex;
@@ -142,10 +142,7 @@ a {
 
 
 /* INTEGRANTES*/
-.fotos-1{
-    width: 500px;
 
-}
 
 .integ-2{
     background-color: #291E46;
@@ -167,6 +164,32 @@ a {
     color: white;
 }
 
+
+.imagen-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.iamge-2 {
+    display: flex;
+    flex-direction: row;
+    
+}
+.imagen-3 {
+    display: flex;
+    flex-direction: row;
+}
+.imagen-4 {
+    display: flex;
+    flex-direction: row;
+}
+.imagen-5 {
+    display: flex;
+}
+.imagen-6 {
+    display: flex;
+}
+
 /*HISTORIA*/
 .titulo-his p{
     font-size: 50px;
@@ -183,11 +206,36 @@ a {
     font-size: 20px;
 }
 
+.bloque-historia {
+    display: flex;
+
+}
+.parrafo-his {
+    width: 50vw;
+}
+.imgs-his {
+    width: 50vw
+}
+
 /* footer*/
 
 .foter {
     background-color: #291E46;
     color: white;
+
+}
+.foter-nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+
+}
+.foter-nav a {
+    display: flex;
+    padding: 20px;
+    color: cadetblue;
+    
 
 }
 
@@ -196,8 +244,19 @@ a {
         flex-direction: column;
     }
     .practicando {
-        justify-content: flex-end;
+        justify-content: center;
+    }
+    .bloque-historia {
+        flex-direction: column;
+    }
+    .foter-nav {
+        flex-direction: column;
+    }
+    header {
+        flex-direction: column;
+        height: auto;
+    }
+    .listas1 {
+        flex-direction: column;
     }
     }
-
-    
